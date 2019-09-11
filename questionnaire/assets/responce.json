@@ -1,0 +1,171 @@
+{
+    "questionnaire": {
+      "questions": [
+        {
+          "id": "goals",
+          "value": "Welche persönlichen Ziele möchtest du verfolgen?",
+          "imageName": "question_1_header.png"
+        },
+        {
+          "id": "support_goals",
+          "value": "Womit soll dich dein persönlicher Ernährungscoach beim erreichen deiner Ziele unterstützen?",
+          "imageName": "question_2_header.png"
+        },
+        {
+          "id": "biggest_challenges",
+          "value": "Was waren bis jetzt deine größten Herausforderungen?",
+          "imageName": "question_3_header.png"
+        },
+        {
+          "id": "eating_habits",
+          "value": "Wie sehen deine Essgewohnheiten aus?",
+          "imageName": "question_4_header.png"
+        },
+        {
+          "id": "everyday_look_like",
+          "value": "Was trifft am besten auf deinen Alltag zu?",
+          "imageName": "question_5_header.png"
+        },
+        {
+          "id": "focus_receipts",
+          "value": "Auf was sollen wir bei deinen Rezepten den Fokus legen?",
+          "imageName": "question_6_header.png"
+        }
+      ],
+      
+      "choices": [
+        {
+          "question": "goals",
+          "multichoise": true,
+          "options": [
+            {
+              "id": "loose_weight",
+              "value": "Ich möchte abnehmen"
+            },
+            {
+              "id": "more_energy",
+              "value": "Mehr Energie im Alltag haben"
+            },
+            {
+              "id": "be_sportier",
+              "value": "Ich möchte sportlicher werden"
+            },
+            {
+              "id": "optimize_health",
+              "value": "Meine Gesundheit optimieren"
+            }
+          ]
+        },
+        {
+          "question": "support_goals",
+          "multichoise": true,
+          "options": [
+            {
+              "id": "motivation",
+              "value": "Motivation"
+            },
+            {
+              "id": "guidance",
+              "value": "Orientierungshilfe"
+            },
+            {
+              "id": "right_foods",
+              "value": "Die richtigen Nahrungsmittel"
+            },
+            {
+              "id": "nutrition_tips",
+              "value": "Ernährungstipps"
+            }
+          ]
+        },
+        {
+          "question": "biggest_challenges",
+          "multichoise": true,
+          "options": [
+            {
+              "id": "find_right_diet",
+              "value": "Die richtige Ernährung für mich zu finden"
+            },
+            {
+              "id": "fast_food",
+              "value": "Ich esse viel Fast Food und Junk Food"
+            },
+            {
+              "id": "weekends",
+              "value": "Die Kontrolle am Wochenende fällt mir schwer"
+            },
+            {
+              "id": "eat_to_much",
+              "value": "Ich esse generell viel"
+            }
+          ]
+        },
+        {
+          "question": "eating_habits",
+          "multichoise": true,
+          "options": [
+            {
+              "id": "snacks",
+              "value": "Ich esse viele Snacks zwischen meinen Mahlzeiten"
+            },
+            {
+              "id": "eat_more_on_stressful_days",
+              "value": "An stressigen Tagen esse ich meistens mehr"
+            },
+            {
+              "id": "eat_when_bored",
+              "value": "Ich esse oft wenn mir langweilig ist"
+            },
+            {
+              "id": "healthy",
+              "value": "Ich ernähre mich gesund"
+            }
+          ]
+        },
+        {
+          "question": "everyday_look_like",
+          "multichoise": false,
+          "options": [
+            {
+              "id": "shift_work",
+              "value": "Ich arbeite in Schichten"
+            },
+            {
+              "id": "home",
+              "value": "Ich bin oft zuhause"
+            },
+            {
+              "id": "normal_working_hours",
+              "value": "Ich arbeite zu normalen zeiten"
+            },
+            {
+              "id": "travel",
+              "value": "Ich bin viel auf Reisen"
+            }
+          ]
+        },
+        {
+          "question": "focus_receipts",
+          "multichoise": true,
+          "options": [
+            {
+              "id": "vegan",
+              "value": "Vegan"
+            },
+            {
+              "id": "vegetarian",
+              "value": "Vegetarisch"
+            },
+            {
+              "id": "low_carb",
+              "value": "Low Carb"
+            },
+            {
+              "id": "balanced",
+              "value": "Ausgewogen"
+            }
+          ]
+        }
+      ]
+    }
+  }
